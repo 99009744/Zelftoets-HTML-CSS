@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+}
+.fullpage{
+    background-color: white;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.logo{
+    text-align: center;
+}
+.navbar{
+    height: 50px;
+    width: 956px;
+    border: black solid 2px;
+    margin: 0 auto;
+}
+.menu{
+    list-style-type: none;
+    margin: 0px 60px;
+    padding: 0;
+    overflow: hidden;
+}
+.menu>li{
+    display: inline-block;
+    border: none;
+    background-color:black;
+    color: white;
+    width: 75px;
+    height: 30px;
+    grid-column: 1/6;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0px 45px;
+}
+.menuitem{
+    padding: 0px;
+}
+.menu>li:hover{
+    background-color: grey;
+    color: black;
+    display: inline-block;
+}
+a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white ;
+}
+a:hover{
+    color: black;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
