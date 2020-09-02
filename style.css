@@ -1,8 +1,11 @@
-*{
-    color: greenyellow;
-}
 body{
     background-color: grey;
+}
+p{
+    color: greenyellow;
+}
+h1{
+    color: greenyellow;
 }
 .fullpage{
     background-color: black;
@@ -115,6 +118,26 @@ p{
     text-align: right;
     margin: 10px;
 }
+#textpage3left{
+    background-color: grey;
+    color: black;
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+#textpage3right{
+    background-color: grey;
+    color: black;
+    width: 400px;
+    height: auto;
+    float: right;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+/* images */
 #image1{
     width: 420px;
     height: 200px;
@@ -156,4 +179,8 @@ p{
     height: 200px;
     grid-row: 3/4;
     grid-column: 3/4;
+}
+.imagespage3{
+    width: 960px;
+    height: 100px;
 }
